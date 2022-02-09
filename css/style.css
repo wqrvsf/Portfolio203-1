@@ -66,6 +66,8 @@ h1, h2, h3 {
     height: 243px;
     border-radius: 50%;
     overflow: hidden;
+    margin-left: 106px;
+    margin-top: 140px;
 }
 
 .about__avatar-img {
@@ -76,4 +78,23 @@ h1, h2, h3 {
 
 .about__info {
     width: 59%;
+}
+
+.button {
+    margin-top: 38px;
+    width: 208px;
+    height: 47px;
+    position: relative;
+    z-index: 100;
+    background-color: #FF6464;
+    border-radius: 2px;
+    color: white;
+}
+
+.about__desc {
+    margin-top: 40px;
+}
+
+.about__text {
+    margin-top: 125px;
 }
