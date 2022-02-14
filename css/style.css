@@ -68,6 +68,7 @@ h1, h2, h3 {
     overflow: hidden;
     margin-left: 106px;
     margin-top: 140px;
+    flex-shrink: 0;
 }
 
 .about__avatar-img {
@@ -77,24 +78,47 @@ h1, h2, h3 {
 }
 
 .about__info {
-    width: 59%;
+    padding-right: 12%;
 }
 
 .button {
     margin-top: 38px;
     width: 208px;
     height: 47px;
-    position: relative;
-    z-index: 100;
     background-color: #FF6464;
     border-radius: 2px;
     color: white;
+    border-style: none;
 }
 
 .about__desc {
     margin-top: 40px;
 }
 
-.about__text {
+.about__text-title {
     margin-top: 125px;
+}
+
+.recent-posts {
+    background-color: #EDF7FA;
+    height: 396px;
+    margin-top: 88px;
+    display: flex;
+}
+
+.recent-posts__articles {
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 4px;
+    margin-right: 20px;
+   
+}
+
+.recent-posts__link {
+    display: flex;
+
+}
+
+.recent-posts__title {
+    
 }
