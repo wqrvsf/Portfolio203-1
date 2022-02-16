@@ -116,6 +116,25 @@ h1, h2, h3 {
     justify-content: space-between;
 }
 
+.recent-posts__title {
+    font-size: 22px;
+}
+
+.recent-posts__link {
+    color: #00A8CC;
+    font-size: 16px;
+}
+
+.recent-posts__text {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.recent-posts__info {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
 .recent-posts__articless {
     background-color: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
@@ -131,4 +150,10 @@ h1, h2, h3 {
 
 .recent-posts__separator {
     margin: 0px 26px;
+}
+
+.recent-posts__subtitle {
+    color: #21243D;
+    font-weight: bold;
+    font-size: 26px;
 }
