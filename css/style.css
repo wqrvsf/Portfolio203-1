@@ -221,5 +221,15 @@ h1, h2, h3 {
 .featured__solid {
     border: 1px solid #E0E0E0;
     width: 863px;
-    margin-left: 297px;
+    margin-left: 500px;
+}
+
+.notice__list {
+    display: flex;
+    justify-content: center;
+}
+
+.notice__icon {
+    margin-left: 35px;
+    margin-top: 269px;
 }
