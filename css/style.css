@@ -230,6 +230,20 @@ h1, h2, h3 {
 }
 
 .notice__icon {
+    width: 30px;
+    height: 30px;
     margin-left: 35px;
-    margin-top: 269px;
+}
+
+.notice__text {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    font-size: 14px;
+}
+
+.footer {
+    width: 1152px;
+    height: 182px;
+    margin-top: 118px;
 }
