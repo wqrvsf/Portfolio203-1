@@ -216,7 +216,7 @@ h1, h2, h3 {
     font-size: 22px;
     margin-top: 34px;
     margin-bottom: 43px;
-    margin-left: 290px;
+    margin-left: 520px;
 }
 
 .work__title {
@@ -273,7 +273,7 @@ h1, h2, h3 {
 
 .notice__list {
     display: flex;
-    justify-content: center;
+    margin-left: 790px;
 }
 
 .notice__icon {
@@ -283,8 +283,7 @@ h1, h2, h3 {
 }
 
 .notice__text {
-    display: flex;
-    justify-content: center;
+    margin-left: 820px;
     margin-top: 26px;
     font-size: 14px;
 }
