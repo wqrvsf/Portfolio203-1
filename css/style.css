@@ -117,8 +117,6 @@ h1, h2, h3 {
     height: 243px;
     border-radius: 50%;
     overflow: hidden;
-    margin-left: 106px;
-    margin-top: 140px;
     flex-shrink: 0;
 }
 
@@ -137,6 +135,7 @@ h1, h2, h3 {
 
     .about__info {
         padding: 0 24px;
+        margin-top: 25px;
     }
 
     .about__avatar {
@@ -165,10 +164,6 @@ h1, h2, h3 {
 
 .about__desc {
     margin-top: 40px;
-}
-
-.about__text-title {
-    margin-top: 125px;
 }
 
 .recent-posts {
@@ -240,8 +235,8 @@ h1, h2, h3 {
 .title__category {
     font-size: 22px;
     margin-top: 34px;
-    margin-bottom: 43px;
-    margin-left: 520px;
+    
+
 }
 
 .work__title {
@@ -281,6 +276,21 @@ h1, h2, h3 {
     color: white;
 }
 
+
+@media (max-width:480px) {
+    .featured__works {
+        height: 400px;
+        display: flex;
+        overflow: auto;
+    }
+
+    .work {
+        padding: 0px 13px 17px;
+        flex-direction: column;
+        flex: 0 0 100%;
+    }
+}
+
 .work__categoty {
     color: #8695A4;
     font-size: 20px;
@@ -293,12 +303,23 @@ h1, h2, h3 {
 .featured__solid {
     border: 1px solid #E0E0E0;
     width: 863px;
-    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width: 480px) {
+    .notice__list {
+        padding: 0 33px;
+    }
+
+    .notice__text {
+        padding: 0 70px;
+    }
 }
 
 .notice__list {
     display: flex;
-    margin-left: 790px;
 }
 
 .notice__icon {
@@ -308,9 +329,14 @@ h1, h2, h3 {
 }
 
 .notice__text {
-    margin-left: 820px;
     margin-top: 26px;
     font-size: 14px;
+}
+
+
+.footer__container {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .footer {
