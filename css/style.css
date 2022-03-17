@@ -289,6 +289,10 @@ h1, h2, h3 {
         flex-direction: column;
         flex: 0 0 100%;
     }
+
+    .title__category {
+        padding:  0 100px;
+    }
 }
 
 .work__categoty {
@@ -333,8 +337,6 @@ h1, h2, h3 {
 }
 
 .footer {
-    width: 1152px;
-    height: 182px;
     margin-top: 118px;
 }
 
