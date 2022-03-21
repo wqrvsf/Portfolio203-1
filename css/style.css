@@ -212,7 +212,7 @@ h1, h2, h3 {
 }
 
 .recent-posts__articless:last-child {
-    margin-right: 0;
+    margin: 0 26px;
 }
 
 .recent-posts__separator {
@@ -364,4 +364,42 @@ h1, h2, h3 {
         margin-bottom: 17px;
     }
 
+}
+
+.blog__category {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.blog__title {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.blog__work {
+    margin-top: 55px;
+}
+
+.blog__separator {
+    margin: 0 26px;
+}
+
+.blog__express {
+    color: #8695A4;
+}
+
+.blog__info {
+    margin-top: 21px;
+}
+
+.blog__text {
+    margin-top: 21px;
+    font-size: 16px;
+}
+
+.blog__line {
+    width: 850px;
+    border: 1px solid #E0E0E0;
+    margin-top: 29px;
+    margin-bottom: 42px;
 }
