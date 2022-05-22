@@ -307,6 +307,15 @@ h1, h2, h3 {
     .title__category {
         padding:  0 100px;
     }
+
+    .work__img {
+        width: 342px;
+        height: 200px;
+    }
+
+    .container works__container {
+        height: 500px;
+    }
 }
 
 .work__categoty {
@@ -379,6 +388,10 @@ h1, h2, h3 {
         margin-right: 0;
         padding: 12px 22px 20px;
         margin-bottom: 17px;
+    }
+
+    .recent-posts__articless:last-child {
+        margin: 0;
     }
 
 }
